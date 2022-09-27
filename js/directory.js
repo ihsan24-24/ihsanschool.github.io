@@ -10,7 +10,7 @@ dOk.addEventListener("click", () => {
   let message = document.querySelector("#new-login");
   let users = JSON.parse(localStorage.getItem("users"));
   // users || (users = []);
-  if (users == null) {
+  if (users == null || users == undefined) {
     users = [];
   }
   let teacherBranch = document.querySelector("#teacher-branch").value;
