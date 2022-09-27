@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(7, 39, 98, 0.312);
+  height: 100vh;
+}
+#directory-menu {
+  padding-top: 5%;
+  padding-left: 5%;
+  background-color: rgba(100, 148, 237, 0.3);
+}

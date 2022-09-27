@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#teacher-menu {
+  background-color: rgba(11, 87, 4, 0.4);
+  width: 60%;
+  height: 300px;
+  max-width: 610px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#bg {
+  margin-top: 5%;
+  background-color: rgba(100, 148, 237, 0.3);
+  background-image: url(../images/teacher.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

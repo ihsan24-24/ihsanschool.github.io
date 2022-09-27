@@ -1,0 +1,29 @@
+#student-menu {
+  background-color: rgba(212, 128, 31, 0.4);
+  width: 60%;
+
+  /* height: 300px; */
+  min-height: 200px;
+  max-width: 610px;
+  margin-top: 10%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.brdr {
+  border-top: 2px solid darkgray;
+  background-color: rgba(212, 128, 31, 0.8);
+  /* background-color: aqua; */
+}
+#bg {
+  margin-top: 5%;
+  background-color: rgba(100, 148, 237, 0.3);
+  background-image: url(../images/thumbs_b_c_415c80281265e03366b07d89ebeb6d7f.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
