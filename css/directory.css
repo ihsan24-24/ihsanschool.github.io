@@ -12,3 +12,19 @@ body {
   padding-left: 5%;
   background-color: rgba(100, 148, 237, 0.3);
 }
+#home {
+  background-color: blue;
+  border: 2px solid blue;
+  width: 80px;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#home:hover a {
+  color: darkgrey;
+}
+#home:hover {
+  cursor: pointer;
+}
