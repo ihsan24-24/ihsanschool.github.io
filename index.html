@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="d-flex row">
+      <div class="w-25 ms-4 col-4">
+        <h3>English</h3>
+        <p>
+          Name : Mehmet <br />
+          password: 1234 <br />
+          id: di9090 <br />
+          Role: Directory <br />
+          <b>Warning:</b> It works with Local Storage and keeps data in Local
+          Storage with user users and directory keywords. <br />
+          <b>Usage:</b> It is a website used for a school. The directory whose
+          information is given above logs into the system and adds teachers and
+          students to the system and can delete it with their id number. the
+          teacher can select the class and give grades to the students who take
+          their own course in that class. In the same class, a student who has
+          not taken the course in his/her own branch cannot give grades. The
+          student enters his own data into the system and reads the results of
+          the course he wants.
+        </p>
+        <h3>Türkish</h3>
+        <p>
+          Name : Mehmet <br />
+          password: 1234 <br />
+          id : di9090 <br />
+          Role : Directory <br />
+          <b>Uyarı :</b> Local Storage ile çalışır user users ve directory
+          keywordleri ile veriyi Local Storage de tutar. <br />
+          <b>Kullanımı :</b> Bir okul için kullanılan web sitesidir. Yukarıda
+          bilgileri verilen directory sisteme giriş yapar ve sisteme öğretmen ve
+          öğrenci ekler ve id numarası ile silebilir. öğretmen sınıfı seçerek o
+          sınıfta kendi dersini alan öğrencilere not verebilir. Aynı sınıfta
+          kendi branşındaki dersi almayan öğrenciye not veremez. Öğrenci sisteme
+          kendi verilerini girerek istediği dersteki sonuçlarını okur.
+        </p>
+      </div>
+      <div class="conatiner col-8 w-50 mx-auto" id="bg">
+        <div class="container mx-auto w-75 me-4">
+          <form>
+            <div class="row mb-3">
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  class="form-control w-50"
+                  id="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-sm-10">
+                <input
+                  type="password"
+                  class="form-control w-50"
+                  id="password"
+                  placeholder="Enter your password"
+                />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  class="form-control w-50"
+                  id="id"
+                  placeholder="Enter your id number"
+                />
+              </div>
+            </div>
+            <select class="form-select w-50" id="menu">
+              <option selected>Select Your Role</option>
+              <option value="teacher">Teacher</option>
+              <option value="student">Student</option>
+              <option value="directory">Directory</option>
+            </select>
+            <p class="mt-2 text-danger visually-hidden" id="login-wrong">
+              Wrong value entry
+            </p>
+            <p class="mt-2 text-success visually-hidden" id="login-correct">
+              Login successful
+            </p>
+            <button type="button" class="btn btn-primary mt-4" id="entry">
+              <a href="" id="link">Sing in</a>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
